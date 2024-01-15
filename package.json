@@ -2,6 +2,7 @@
   "name": "mon-projet-threejs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://oieoie.com/aquaponie/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,11 +11,12 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "three": "^0.160.0",
+    "three-bmfont-text": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build --base-href=/aquaponie/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
